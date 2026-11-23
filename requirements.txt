@@ -1,0 +1,14 @@
+# Python 3.10+ is required by Apache Spark 4.2.0.
+# Keep PySpark aligned with the installed Spark distribution and GraphX module.
+pyspark==4.2.0
+
+# Data handling, dashboard and visualizations
+numpy>=1.22
+pandas>=2.2,<3.0
+plotly>=5.0
+matplotlib>=3.7
+streamlit>=1.30
+python-dotenv>=1.0
+
+# Kafka Python producer client
+kafka-python-ng>=2.2

@@ -1,0 +1,35 @@
+﻿# Local configuration and environments
+.env
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Raw and generated data
+/data/raw/*
+!/data/raw/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+/data/sample/
+/outputs/
+/models/
+/logs/
+
+# Runtime logs and local Kafka data
+*.log
+*.log.*
+kafka-logs/
+
+# IDE and build output
+.vscode/
+.idea/
+**/target/
+.metals/
+.bsp/
+.DS_Store
+Thumbs.db
